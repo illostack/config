@@ -1,5 +1,11 @@
 # @illostack/eslint-config
 
+## 0.0.2
+
+### Patch Changes
+
+- 7965fbe: fix exports
+
 ## 0.0.3
 
 ### Patch Changes

@@ -1,12 +1,17 @@
 {
   "name": "@illostack/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "exports": {
     "./base": "./base.js",
-    "./next-js": "./next.js",
+    "./next-js": "./next-js.js",
     "./react-internal": "./react-internal.js"
   },
+  "files": [
+    "base.js",
+    "next-js.js",
+    "react-internal.js"
+  ],
   "devDependencies": {
     "@eslint/js": "^9.23.0",
     "@next/eslint-plugin-next": "^15.2.1",
