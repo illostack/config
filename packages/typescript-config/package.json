@@ -1,13 +1,18 @@
 {
   "name": "@illostack/typescript-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "license": "MIT",
   "exports": {
     "./base.json": "./base.json",
-    "./nextjs.json": "./next.json",
+    "./nextjs.json": "./nextjs.json",
     "./react-library.json": "./react-library.json"
   },
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "react-library.json"
+  ],
   "publishConfig": {
     "access": "public"
   }
