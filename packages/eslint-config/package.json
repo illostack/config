@@ -12,6 +12,9 @@
     "next.js",
     "react-internal.js"
   ],
+  "scripts": {
+    "build": "tsup base.js next.js react-internal.js --format cjs,esm --dts"
+  },
   "devDependencies": {
     "@eslint/js": "^9.23.0",
     "@next/eslint-plugin-next": "^15.2.1",
